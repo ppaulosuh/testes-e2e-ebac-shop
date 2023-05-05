@@ -23,7 +23,7 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         cy.get('.tbay-woocommerce-breadcrumb > :nth-child(2) > a').click()
         cy.addProdutos('Aero Daily Fitness Tee', 'XL', 'Brown', '1')
         cy.get('.tbay-woocommerce-breadcrumb > :nth-child(2) > a').click()
-        cy.addProdutos('Apollo Running Short', '36', 'Black', '1')
+        cy.addProdutos('Atlas Fitness Tank', 'XS', 'Blue', '1')
 
         cy.get('.woocommerce-message > .button').click()
         cy.get('.checkout-button').click()
